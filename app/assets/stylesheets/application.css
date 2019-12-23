@@ -13,3 +13,35 @@
  *= require_tree .
  *= require_self
  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.cleafix {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+h1 ,h2 {
+	margin : 30px 20px 20px 40px
+}
+
+table {
+	width: 100%;
+}
+
+table td{
+	text-align: left;
+	padding: 5px 15px;
+	font-size: 12px;
+}
+
+.box {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	margin: 5px 15px;
+}
